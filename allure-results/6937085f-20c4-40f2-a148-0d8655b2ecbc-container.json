@@ -1,0 +1,1 @@
+{"uuid":"6937085f-20c4-40f2-a148-0d8655b2ecbc","name":"Scenario: Check if Admin able to create a program with valid endpoint and request body with Authorization to be used for batch","children":["a524c7ca-3ac4-4cc7-b9af-6571c32a57fb"],"befores":[],"afters":[],"start":1712090961414,"stop":1712090961622}

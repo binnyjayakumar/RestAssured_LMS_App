@@ -1,0 +1,1 @@
+{"uuid":"448614a7-b21b-4b6a-bdca-cba3a4a6edef","name":"Scenario: Check if admin able to retrieve all active Admins with no authorization","children":["27704f4f-2006-4b22-8583-734a33a9dee2"],"befores":[],"afters":[],"start":1712090978250,"stop":1712090978673}

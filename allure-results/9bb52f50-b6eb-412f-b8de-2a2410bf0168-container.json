@@ -1,0 +1,1 @@
+{"uuid":"9bb52f50-b6eb-412f-b8de-2a2410bf0168","name":"Scenario: Check if admin able to retrieve all Admin with valid endpoint(all users)","children":["5b72c9a0-1a97-4ff5-bd7e-69e33de0c6ce"],"befores":[],"afters":[],"start":1712093861066,"stop":1712093862178}

@@ -1,0 +1,1 @@
+{"uuid":"d6c56554-c8ff-42fd-b28c-1501eb14ed47","name":"Scenario: Check if admin is able to get count of active and inactive Admins with no authorization","children":["6d6ff64d-47a7-4150-baaf-439ceaefa2f0"],"befores":[],"afters":[],"start":1712081170707,"stop":1712081170862}

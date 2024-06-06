@@ -1,0 +1,1 @@
+{"uuid":"85cbf3cd-c361-4802-8abd-6f1821b68f3f","name":"Scenario: Check if admin able to update a Batch with invalid endpoint","children":["cceb1f0e-edef-49c3-afe7-7a8340aa3552"],"befores":[],"afters":[],"start":1712093884215,"stop":1712093884773}

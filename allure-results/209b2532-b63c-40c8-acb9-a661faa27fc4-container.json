@@ -1,0 +1,1 @@
+{"uuid":"209b2532-b63c-40c8-acb9-a661faa27fc4","name":"Scenario: Check if Admin able to create a Admin missing mandatory fields in request body","children":["0debfea6-c272-49e4-ac0c-bc0fe4826375"],"befores":[],"afters":[],"start":1712085619518,"stop":1712085619816}

@@ -1,0 +1,241 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome10Element"
+    },
+    "definitions": {
+        "Welcome10Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "userRoleId": {
+                    "type": "integer"
+                },
+                "user": {
+                    "$ref": "#/definitions/User"
+                },
+                "role": {
+                    "$ref": "#/definitions/Role"
+                },
+                "userRoleStatus": {
+                    "$ref": "#/definitions/UserRoleStatus"
+                },
+                "userId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "role",
+                "user",
+                "userId",
+                "userRoleId",
+                "userRoleStatus"
+            ],
+            "title": "Welcome10Element"
+        },
+        "Role": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "roleId": {
+                    "$ref": "#/definitions/RoleID"
+                },
+                "roleName": {
+                    "$ref": "#/definitions/RoleName"
+                },
+                "roleDesc": {
+                    "$ref": "#/definitions/RoleDesc"
+                },
+                "creationTime": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "lastModTime": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "hibernateLazyInitializer": {
+                    "$ref": "#/definitions/HibernateLazyInitializer"
+                }
+            },
+            "required": [
+                "creationTime",
+                "hibernateLazyInitializer",
+                "lastModTime",
+                "roleDesc",
+                "roleId",
+                "roleName"
+            ],
+            "title": "Role"
+        },
+        "HibernateLazyInitializer": {
+            "type": "object",
+            "additionalProperties": false,
+            "title": "HibernateLazyInitializer"
+        },
+        "User": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "userId": {
+                    "type": "string"
+                },
+                "userFirstName": {
+                    "type": "string"
+                },
+                "userLastName": {
+                    "type": "string"
+                },
+                "userMiddleName": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "userPhoneNumber": {
+                    "type": "integer"
+                },
+                "userLocation": {
+                    "type": "string"
+                },
+                "userTimeZone": {
+                    "$ref": "#/definitions/UserTimeZone"
+                },
+                "userLinkedinUrl": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string",
+                            "qt-uri-protocols": [
+                                "https"
+                            ]
+                        }
+                    ]
+                },
+                "userEduUg": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "userEduPg": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "userComments": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "userVisaStatus": {
+                    "$ref": "#/definitions/UserVisaStatus"
+                },
+                "hibernateLazyInitializer": {
+                    "$ref": "#/definitions/HibernateLazyInitializer"
+                }
+            },
+            "required": [
+                "hibernateLazyInitializer",
+                "userComments",
+                "userEduPg",
+                "userEduUg",
+                "userFirstName",
+                "userId",
+                "userLastName",
+                "userLinkedinUrl",
+                "userLocation",
+                "userMiddleName",
+                "userPhoneNumber",
+                "userTimeZone",
+                "userVisaStatus"
+            ],
+            "title": "User"
+        },
+        "RoleDesc": {
+            "type": "string",
+            "enum": [
+                "LMS_Staff",
+                "LMS_User",
+                "LMS_Admin"
+            ],
+            "title": "RoleDesc"
+        },
+        "RoleID": {
+            "type": "string",
+            "enum": [
+                "R02",
+                "R03",
+                "R01"
+            ],
+            "title": "RoleID"
+        },
+        "RoleName": {
+            "type": "string",
+            "enum": [
+                "ROLE_STAFF",
+                "ROLE_STUDENT",
+                "ROLE_ADMIN"
+            ],
+            "title": "RoleName"
+        },
+        "UserTimeZone": {
+            "type": "string",
+            "enum": [
+                "PST",
+                "EST",
+                "IST",
+                "CST",
+                "MST"
+            ],
+            "title": "UserTimeZone"
+        },
+        "UserVisaStatus": {
+            "type": "string",
+            "enum": [
+                "H4",
+                "GC-EAD",
+                "H4-EAD",
+                "Not-Specified",
+                "H1B",
+                "US-Citizen",
+                "NA",
+                "Canada-EAD",
+                "Indian-Citizen",
+                "Canada-Citizen"
+            ],
+            "title": "UserVisaStatus"
+        },
+        "UserRoleStatus": {
+            "type": "string",
+            "enum": [
+                "Active",
+                "active",
+                "Inactive",
+                "InActive"
+            ],
+            "title": "UserRoleStatus"
+        }
+    }
+}

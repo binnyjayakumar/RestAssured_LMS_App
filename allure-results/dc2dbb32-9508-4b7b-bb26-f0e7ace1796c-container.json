@@ -1,0 +1,1 @@
+{"uuid":"dc2dbb32-9508-4b7b-bb26-f0e7ace1796c","name":"Scenario: Check if admin is able to delete the Admin with invalid endpoint","children":["35f7005a-47c5-4dde-83a8-e72b0fa31708"],"befores":[],"afters":[],"start":1712093904353,"stop":1712093904622}

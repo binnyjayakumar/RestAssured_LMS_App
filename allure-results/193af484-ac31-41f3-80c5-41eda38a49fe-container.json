@@ -1,0 +1,1 @@
+{"uuid":"193af484-ac31-41f3-80c5-41eda38a49fe","name":"Scenario: Check if admin is able to retrieve all Admins with filters with invalid endpoint","children":["113de6fa-5026-4e6d-92c7-e6f53bfb088f"],"befores":[],"afters":[],"start":1712090981561,"stop":1712090981966}

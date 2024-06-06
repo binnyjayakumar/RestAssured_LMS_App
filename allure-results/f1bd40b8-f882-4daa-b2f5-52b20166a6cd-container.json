@@ -1,0 +1,1 @@
+{"uuid":"f1bd40b8-f882-4daa-b2f5-52b20166a6cd","name":"Scenario: Check if admin is able to create a Admin with valid endpoint and invalid values in request body","children":["3153b38c-29c5-4ec8-ae65-a0f3f0c1f641"],"befores":[],"afters":[],"start":1712090975493,"stop":1712090975782}

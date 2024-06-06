@@ -1,0 +1,1 @@
+{"uuid":"c2b5bc51-31f1-4aca-bfe2-23ce08c982ec","name":"Scenario: Check if admin able to create a new Admin with request body without authorization","children":["97811c45-0548-48b7-92e0-1061358f853b"],"befores":[],"afters":[],"start":1712081169981,"stop":1712081170472}

@@ -1,0 +1,1 @@
+{"uuid":"c19bde7d-ed44-4330-9941-ae88b5b74ff8","name":"Scenario: Check if admin able to retrieve all Admins with roles with invalid endpoint","children":["26ae2885-fdfc-4524-8b99-cdee52ae5df0"],"befores":[],"afters":[],"start":1712090975203,"stop":1712090975476}

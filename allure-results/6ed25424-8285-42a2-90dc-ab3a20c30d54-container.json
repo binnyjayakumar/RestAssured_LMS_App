@@ -1,0 +1,1 @@
+{"uuid":"6ed25424-8285-42a2-90dc-ab3a20c30d54","name":"Scenario: Check if admin is able to retrieve all Admins with filters with no authorization","children":["5411bcea-6a5a-4371-b4e2-c14153bb4be5"],"befores":[],"afters":[],"start":1712090980141,"stop":1712090981546}

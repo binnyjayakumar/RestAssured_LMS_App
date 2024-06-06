@@ -1,0 +1,1 @@
+{"uuid":"ab3ad22a-a778-4486-bf8d-74850072d52e","name":"Scenario: Check if admin is able to update the Admin login status by Admin ID with invalid request body","children":["efc95146-58ba-4d5d-8378-3dcbc0db2c69"],"befores":[],"afters":[],"start":1712090982434,"stop":1712090982690}

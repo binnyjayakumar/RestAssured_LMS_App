@@ -1,0 +1,1 @@
+{"uuid":"f7556b06-0f88-4ab4-b655-68df39ba31d7","name":"Scenario: Check if Admin able to delete a program with valid LMS API, invalid programName","children":["9e952052-912b-4486-9b35-7b787a83ed83"],"befores":[],"afters":[],"start":1712081166697,"stop":1712081166847}

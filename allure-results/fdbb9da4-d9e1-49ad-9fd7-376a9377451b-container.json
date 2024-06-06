@@ -1,0 +1,1 @@
+{"uuid":"fdbb9da4-d9e1-49ad-9fd7-376a9377451b","name":"Scenario: Check if admin able to retrive a batch after deleting the batch","children":["053d84e8-9e68-46fc-8c10-bfaeaa9d566a"],"befores":[],"afters":[],"start":1712093848778,"stop":1712093849669}

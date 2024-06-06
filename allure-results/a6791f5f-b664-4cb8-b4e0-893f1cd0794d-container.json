@@ -1,0 +1,1 @@
+{"uuid":"a6791f5f-b664-4cb8-b4e0-893f1cd0794d","name":"Scenario: Check if Admin able to retrieve a program with invalid Endpoint","children":["cd70b99f-eb7c-4c63-abb3-0af8db8e742c"],"befores":[],"afters":[],"start":1712090956316,"stop":1712090956470}

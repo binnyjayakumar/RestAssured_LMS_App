@@ -1,0 +1,1 @@
+{"uuid":"1e6f71f9-8236-462f-9315-3408e80e80ed","name":"Scenario: Check if admin is able to update Admin details with No authorization","children":["c7385bd1-cfe0-4bab-a376-b193841bbfef"],"befores":[],"afters":[],"start":1712083297166,"stop":1712083298288}

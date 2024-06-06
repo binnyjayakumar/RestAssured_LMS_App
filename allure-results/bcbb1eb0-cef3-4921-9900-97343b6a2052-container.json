@@ -1,0 +1,1 @@
+{"uuid":"bcbb1eb0-cef3-4921-9900-97343b6a2052","name":"Scenario: Check if Admin able to logout with valid endpoint with NoAuth","children":["bba3adca-5ca9-49b3-be4b-077698a41ee5"],"befores":[],"afters":[],"start":1712090991112,"stop":1712090991256}
